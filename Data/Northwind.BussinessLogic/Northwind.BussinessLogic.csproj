@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Northwind.UnitOfWork\Northwind.UnitOfWork.csproj" />
+    <ProjectReference Include="..\Northwind.Models\Northwind.Models.csproj" />
+    <ProjectReference Include="..\Northwind.Repositories\Northwind.Repositories.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>

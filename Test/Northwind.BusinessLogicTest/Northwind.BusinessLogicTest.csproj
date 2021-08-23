@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\..\Data\Northwind.Repositories\Northwind.Repositories.csproj"/>
+    <ProjectReference Include="..\..\Data\Northwind.UnitOfWork\Northwind.UnitOfWork.csproj"/>
+    <ProjectReference Include="..\..\Data\Northwind.BussinessLogic\Northwind.BussinessLogic.csproj"/>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoFixture" Version="4.5.0"/>
+    <PackageReference Include="Moq" Version="4.10.0"/>
+    <PackageReference Include="xunit" Version="2.4.0"/>
+    <PackageReference Include="FluentAssertions" Version="5.4.2"/>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0"/>
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3"/>
+  </ItemGroup>
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+</Project>

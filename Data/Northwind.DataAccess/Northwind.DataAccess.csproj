@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.90"/>
+    <PackageReference Include="Dapper.Contrib" Version="2.0.78"/>
+    <PackageReference Include="System.Data.SqlClient" Version="4.7.0"/>
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="2.1.0"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Northwind.Repositories\Northwind.Repositories.csproj"/>
+    <ProjectReference Include="..\Northwind.UnitOfWork\Northwind.UnitOfWork.csproj"/>
+  </ItemGroup>
+</Project>
