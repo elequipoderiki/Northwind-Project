@@ -24,6 +24,7 @@ namespace Northwind.BusinessLogicTest
       var result = _orderLogic.GetOrderNumber(1);
       result.Should().NotBeNull();
       result.Should().NotBeEmpty();
+    
     }
   }
 }
